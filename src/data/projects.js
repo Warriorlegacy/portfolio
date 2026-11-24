@@ -234,14 +234,15 @@ export const PROJECTS = [
         "value": "5.39 MB APK"
       },
       {
-        "label": "Source of truth",
-        "value": "One registry"
+        "label": "GTM Reel",
+        "value": "24.5s 9:16"
       }
     ],
     "enforced": [
       "The hub links each deployed Worker and its release APK; it does not host a second copy of any app.",
       "Per-app APK links are the files served from each Worker, so the install and the demo cannot drift apart.",
-      "The suite build packages all five apps for offline demos while per-app installs stay available."
+      "The suite build packages all five apps for offline demos while per-app installs stay available.",
+      "A code-rendered 24.5s 9:16 vertical GTM reel with Gemini voiceover and Whisper karaoke subtitles demonstrates all 5 live platforms."
     ]
   },
   {
