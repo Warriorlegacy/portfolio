@@ -265,7 +265,7 @@ export const PROJECTS = [
     "metrics": [
       {
         "label": "Unit tests",
-        "value": "11/11"
+        "value": "28/28"
       },
       {
         "label": "Typecheck",
@@ -280,6 +280,8 @@ export const PROJECTS = [
       "A static UPI QR only opens a payment request; the app never claims to have received or verified the money.",
       "Every manual ledger entry is labelled 'Marked received by merchant — not independently verified'.",
       "Provider verification stays disabled until a real signed webhook is configured and matched server-side.",
+      "Bank and UPI CSV statement imports match against pending references by 12-digit UTR, invoice number, or unique outstanding amounts within 45 days.",
+      "The payment collection queue drafts WhatsApp reminders with public pay links for merchants to send directly.",
       "No UPI PIN, OTP, card number or bank password is ever requested.",
       "The guest QR generator runs in the browser with no login and no server call.",
       "Fixed amounts are formatted in integer paise with two decimals in the UPI URI."
