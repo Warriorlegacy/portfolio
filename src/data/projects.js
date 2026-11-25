@@ -127,7 +127,7 @@ export const PROJECTS = [
       },
       {
         "label": "Install",
-        "value": "0.94 MB APK"
+        "value": "5.11 MB APK"
       }
     ],
     "enforced": [
