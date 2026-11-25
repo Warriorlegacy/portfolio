@@ -251,7 +251,7 @@ export const PROJECTS = [
     "group": "fintech",
     "category": "FinTech",
     "tagline": "UPI QR, invoices and dues",
-    "summary": "A free UPI QR and payment-link tool for Indian tutors, shops and freelancers, with invoice PDFs that carry the QR and a customer dues ledger that labels every manual entry as merchant-reported.",
+    "summary": "A free UPI QR and payment-link tool for Indian tutors, shops and freelancers, with PDF invoices that carry the QR, bank/UPI CSV statement import, WhatsApp reminder drafts and a dues ledger that labels every manual entry as merchant-reported.",
     "tech": [
       "React 19",
       "Cloudflare Workers",
@@ -289,6 +289,45 @@ export const PROJECTS = [
     ]
   },
   {
+    "slug": "signhify",
+    "name": "Signhify",
+    "group": "ai",
+    "category": "AI Studio",
+    "tagline": "Websites that scroll like a film",
+    "summary": "AI scroll website studio with 33 design presets across 8 categories, up to 480 Pro and 600 Studio scroll frames with 60 FPS native replay, client-side AES-256-GCM BYOK encryption, and ZIP or Cloudflare edge export.",
+    "tech": [
+      "TanStack Start",
+      "React 19",
+      "Cloudflare Workers",
+      "Supabase",
+      "TypeScript"
+    ],
+    "live": "https://signhify.dpdns.org",
+    "repo": null,
+    "featured": true,
+    "order": 7,
+    "metrics": [
+      {
+        "label": "Presets",
+        "value": "33 / 8 categories"
+      },
+      {
+        "label": "Scroll frames",
+        "value": "480 Pro · 600 Studio"
+      },
+      {
+        "label": "Replay",
+        "value": "60 FPS native"
+      }
+    ],
+    "enforced": [
+      "Generated scroll sites export clean HTML/CSS/JS bundles as ZIP files or edge deploys with 100% source ownership.",
+      "Client-side BYOK keys encrypt in browser memory with AES-256-GCM before storage or provider routing.",
+      "Scroll player falls back cleanly to a static poster when prefers-reduced-motion is active or frames are missing.",
+      "Pricing tiers map 1:1 to server-enforced credit entitlements ($5 Starter, $50 Pro 480-frame, $100 Studio 600-frame, $200 Enterprise)."
+    ]
+  },
+  {
     "slug": "hireflow-lite",
     "name": "HireFlow Lite",
     "group": "saas",
@@ -304,7 +343,7 @@ export const PROJECTS = [
     "live": "https://hireflow-lite.rajpiyush092.workers.dev",
     "repo": null,
     "featured": true,
-    "order": 7,
+    "order": 8,
     "metrics": [
       {
         "label": "Smoke tests",
@@ -344,7 +383,7 @@ export const PROJECTS = [
     "live": "https://appointmentflow.rajpiyush092.workers.dev",
     "repo": null,
     "featured": true,
-    "order": 8,
+    "order": 9,
     "metrics": [
       {
         "label": "Tests",
@@ -384,7 +423,7 @@ export const PROJECTS = [
     "live": "https://localrank-studio.rajpiyush092.workers.dev",
     "repo": null,
     "featured": true,
-    "order": 9,
+    "order": 10,
     "metrics": [
       {
         "label": "Unit tests",
@@ -424,7 +463,7 @@ export const PROJECTS = [
     "live": "https://quoteflow.rajpiyush092.workers.dev",
     "repo": null,
     "featured": true,
-    "order": 10,
+    "order": 11,
     "metrics": [
       {
         "label": "Unit tests",
@@ -464,7 +503,7 @@ export const PROJECTS = [
     "live": "https://docudesk.rajpiyush092.workers.dev",
     "repo": null,
     "featured": true,
-    "order": 11,
+    "order": 12,
     "metrics": [
       {
         "label": "Deploy",
@@ -501,7 +540,7 @@ export const PROJECTS = [
     "live": "https://creativeops.rajpiyush092.workers.dev",
     "repo": null,
     "featured": true,
-    "order": 12,
+    "order": 13,
     "metrics": [
       {
         "label": "Deploy",
@@ -538,7 +577,7 @@ export const PROJECTS = [
     "live": "https://coachingos.rajpiyush092.workers.dev",
     "repo": null,
     "featured": true,
-    "order": 13,
+    "order": 14,
     "metrics": [
       {
         "label": "Tenancy",
@@ -573,7 +612,7 @@ export const PROJECTS = [
     "live": null,
     "repo": null,
     "featured": true,
-    "order": 14,
+    "order": 15,
     "metrics": [
       {
         "label": "Coverage",
@@ -610,7 +649,7 @@ export const PROJECTS = [
     "live": "https://auditmind-ai-red.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 15,
+    "order": 16,
     "metrics": [],
     "enforced": []
   },
@@ -630,7 +669,7 @@ export const PROJECTS = [
     "live": "https://contractsentinel-ai.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 16,
+    "order": 17,
     "metrics": [],
     "enforced": []
   },
@@ -650,7 +689,7 @@ export const PROJECTS = [
     "live": "https://codevortex-sre.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 17,
+    "order": 18,
     "metrics": [],
     "enforced": []
   },
@@ -670,7 +709,7 @@ export const PROJECTS = [
     "live": "https://synthmed-ai.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 18,
+    "order": 19,
     "metrics": [],
     "enforced": []
   },
@@ -690,7 +729,7 @@ export const PROJECTS = [
     "live": "https://adgenesis-ai.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 19,
+    "order": 20,
     "metrics": [],
     "enforced": []
   },
@@ -710,7 +749,7 @@ export const PROJECTS = [
     "live": "https://tenderbot-global.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 20,
+    "order": 21,
     "metrics": [],
     "enforced": []
   },
@@ -730,7 +769,7 @@ export const PROJECTS = [
     "live": "https://qualicheck-ai.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 21,
+    "order": 22,
     "metrics": [],
     "enforced": []
   },
@@ -750,7 +789,7 @@ export const PROJECTS = [
     "live": "https://talentpulse-ai-nine.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 22,
+    "order": 23,
     "metrics": [],
     "enforced": []
   },
@@ -770,7 +809,7 @@ export const PROJECTS = [
     "live": "https://datalightning-ai.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 23,
+    "order": 24,
     "metrics": [],
     "enforced": []
   },
@@ -790,7 +829,7 @@ export const PROJECTS = [
     "live": "https://hyperlocalize-ai.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 24,
+    "order": 25,
     "metrics": [],
     "enforced": []
   },
@@ -813,7 +852,7 @@ export const PROJECTS = [
     "live": "https://signhify-ai-web.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 25,
+    "order": 26,
     "metrics": [],
     "enforced": []
   },
@@ -833,7 +872,7 @@ export const PROJECTS = [
     "live": "https://nexusvipexch.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 26,
+    "order": 27,
     "metrics": [],
     "enforced": []
   },
@@ -852,7 +891,7 @@ export const PROJECTS = [
     "live": null,
     "repo": null,
     "featured": false,
-    "order": 27,
+    "order": 28,
     "metrics": [],
     "enforced": []
   },
@@ -872,7 +911,7 @@ export const PROJECTS = [
     "live": "https://gymflow-saas.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 28,
+    "order": 29,
     "metrics": [],
     "enforced": []
   },
@@ -892,7 +931,7 @@ export const PROJECTS = [
     "live": "https://autoreels-ai.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 29,
+    "order": 30,
     "metrics": [],
     "enforced": []
   },
@@ -911,7 +950,7 @@ export const PROJECTS = [
     "live": "https://gigmind-gamma.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 30,
+    "order": 31,
     "metrics": [],
     "enforced": []
   },
@@ -930,7 +969,7 @@ export const PROJECTS = [
     "live": "https://tuitiontrack-app.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 31,
+    "order": 32,
     "metrics": [],
     "enforced": []
   },
@@ -949,7 +988,7 @@ export const PROJECTS = [
     "live": "https://signhify-crm.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 32,
+    "order": 33,
     "metrics": [],
     "enforced": []
   },
@@ -968,7 +1007,7 @@ export const PROJECTS = [
     "live": "https://vibe-coding-platform-neon-kappa.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 33,
+    "order": 34,
     "metrics": [],
     "enforced": []
   },
@@ -986,7 +1025,7 @@ export const PROJECTS = [
     "live": "https://sewarthpathsansthanam.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 34,
+    "order": 35,
     "metrics": [],
     "enforced": []
   },
@@ -1005,7 +1044,7 @@ export const PROJECTS = [
     "live": "https://jmd-online-book.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 35,
+    "order": 36,
     "metrics": [],
     "enforced": []
   },
@@ -1023,7 +1062,7 @@ export const PROJECTS = [
     "live": "https://gplesports.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 36,
+    "order": 37,
     "metrics": [],
     "enforced": []
   },
@@ -1040,7 +1079,7 @@ export const PROJECTS = [
     "live": "https://rahul-silk.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 37,
+    "order": 38,
     "metrics": [],
     "enforced": []
   },
@@ -1058,7 +1097,7 @@ export const PROJECTS = [
     "live": "https://vip-free-tennis-page.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 38,
+    "order": 39,
     "metrics": [],
     "enforced": []
   },
@@ -1077,7 +1116,7 @@ export const PROJECTS = [
     "live": null,
     "repo": null,
     "featured": false,
-    "order": 39,
+    "order": 40,
     "metrics": [],
     "enforced": []
   },
@@ -1096,7 +1135,7 @@ export const PROJECTS = [
     "live": null,
     "repo": null,
     "featured": false,
-    "order": 40,
+    "order": 41,
     "metrics": [],
     "enforced": []
   },
@@ -1115,7 +1154,7 @@ export const PROJECTS = [
     "live": null,
     "repo": null,
     "featured": false,
-    "order": 41,
+    "order": 42,
     "metrics": [],
     "enforced": []
   },
@@ -1135,7 +1174,7 @@ export const PROJECTS = [
     "live": "https://adshield-india.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 42,
+    "order": 43,
     "metrics": [],
     "enforced": []
   },
@@ -1155,7 +1194,7 @@ export const PROJECTS = [
     "live": "https://autotube-signhify.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 43,
+    "order": 44,
     "metrics": [],
     "enforced": []
   },
@@ -1173,7 +1212,7 @@ export const PROJECTS = [
     "live": "https://cricket-king-rahul.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 44,
+    "order": 45,
     "metrics": [],
     "enforced": []
   },
@@ -1191,7 +1230,7 @@ export const PROJECTS = [
     "live": "https://hari-cricket.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 45,
+    "order": 46,
     "metrics": [],
     "enforced": []
   },
@@ -1209,7 +1248,7 @@ export const PROJECTS = [
     "live": "https://tennis-king-jackpot.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 46,
+    "order": 47,
     "metrics": [],
     "enforced": []
   },
@@ -1229,7 +1268,7 @@ export const PROJECTS = [
     "live": "https://examastra.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 47,
+    "order": 48,
     "metrics": [],
     "enforced": []
   },
@@ -1250,7 +1289,7 @@ export const PROJECTS = [
     "live": null,
     "repo": "https://github.com/Warriorlegacy/Autogram",
     "featured": false,
-    "order": 48,
+    "order": 49,
     "metrics": [],
     "enforced": []
   },
@@ -1269,7 +1308,7 @@ export const PROJECTS = [
     "live": "https://signhify-cli.vercel.app",
     "repo": null,
     "featured": false,
-    "order": 49,
+    "order": 50,
     "metrics": [],
     "enforced": []
   },
@@ -1288,7 +1327,7 @@ export const PROJECTS = [
     "live": null,
     "repo": "https://github.com/Warriorlegacy/signhify-showcase",
     "featured": false,
-    "order": 50,
+    "order": 51,
     "metrics": [],
     "enforced": []
   },
@@ -1307,7 +1346,7 @@ export const PROJECTS = [
     "live": null,
     "repo": "https://github.com/Warriorlegacy/dxfvec",
     "featured": false,
-    "order": 51,
+    "order": 52,
     "metrics": [],
     "enforced": []
   }

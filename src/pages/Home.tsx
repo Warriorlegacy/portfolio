@@ -7,6 +7,8 @@ import { ExternalLink, Link } from '../lib/router'
 
 const HOME_PICKS = [
   'upi-smart-collect',
+  'signhify',
+  'veripay',
   'signhify-ai',
   'auditmind-ai',
   'quoteflow',

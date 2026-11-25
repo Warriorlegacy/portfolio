@@ -20,10 +20,10 @@ export const EXPERIENCE = {
   role: 'Independent software engineer and product builder',
   period: '2026 — present',
   lines: [
-    'Built and shipped 45 catalogued products across AI systems, SaaS, fintech, edtech, marketing technology and business sites.',
-    'Designed eight multi-tenant SaaS products on Cloudflare Workers with D1 behind them, including quote-to-cash invoicing, applicant tracking, appointment booking, document intake and local SEO auditing.',
+    'Built and shipped 53 catalogued products across AI systems, SaaS, fintech, edtech, marketing technology and business sites.',
+    'Designed multi-tenant SaaS products and the 5-platform BharatOS suite on Cloudflare Workers with D1 behind them, including quote-to-cash invoicing, applicant tracking, appointment booking, document intake, UPI billing and local SEO auditing.',
     'Implemented authentication and tenancy: PBKDF2 over Web Crypto, double-submit CSRF, httpOnly sessions, role scoping on the route and tenant scope inside queries.',
-    'Verified releases with smoke suites run against the deployed worker — 45/45 QuoteFlow, 95/95 HireFlow Lite, 10/10 LocalRank Studio, 24/24 AppointmentFlow — alongside Vitest and Playwright suites.',
+    'Verified releases with smoke suites run against the deployed worker — 45/45 QuoteFlow, 95/95 HireFlow Lite, 10/10 LocalRank Studio, 24/24 AppointmentFlow, 28/28 UPI Smart Collect — alongside Vitest and Playwright suites.',
     'Built browser-side AI products that keep data on the device: contract redlining, clinical note structuring, Kubernetes incident triage, in-browser SQL analytics and code screening.',
   ],
 }
@@ -265,7 +265,7 @@ export const VARIANTS = [
       'Technical Product Builder',
     ],
     summary:
-      'Engineer and product builder working across AI systems, full-stack development and go-to-market. Forty-five shipped projects, including eight multi-tenant SaaS products on Cloudflare Workers and fourteen AI applications, with the same standard applied to each: a working deployment, a written constraint list and tests that can be re-run.',
+      'Engineer and product builder working across AI systems, full-stack development and go-to-market. Fifty-three shipped projects, including the Bharat 5x suite, multi-tenant SaaS products on Cloudflare Workers and fourteen AI applications, with the same standard applied to each: a working deployment, a written constraint list and tests that can be re-run.',
     skills: [
       ['Languages', 'TypeScript, Python, JavaScript, SQL, HTML, CSS'],
       ['Product', 'SaaS architecture, multi-tenancy, onboarding, billing paths, admin surfaces, documentation'],

@@ -18,12 +18,12 @@ const TIMELINE = [
   {
     title: 'Independent software engineer and product builder',
     period: '2026 — present',
-    body: 'Forty-five catalogued projects across AI systems, SaaS, fintech, edtech, marketing and business sites. Eight multi-tenant SaaS products on Cloudflare Workers and D1, fourteen AI applications, and the automation that ships and audits them.',
+    body: `${PROJECTS.length} catalogued projects across AI systems, SaaS, fintech, edtech, marketing and business sites. Eight multi-tenant SaaS products plus the Bharat 5x suite on Cloudflare Workers and D1, fourteen AI applications, and the automation that ships and audits them.`,
   },
   {
     title: 'Signhify — studio and product platform',
     period: '2026 — present',
-    body: 'The studio behind the AI product line: Signhify AI, the CRM, the CLI and the blueprint marketplace. Client work ranges from brand sites to booking systems.',
+    body: 'The studio behind the AI product line: Signhify Scroll Studio, Signhify AI, the CRM, the CLI and the blueprint marketplace. Client work ranges from brand sites to booking systems.',
   },
 ]
 
@@ -88,8 +88,8 @@ export default function Profile() {
                 <span>Live</span>
               </div>
               <div className="figure">
-                <b>8</b>
-                <span>Multi-tenant SaaS</span>
+                <b>9</b>
+                <span>Cloudflare SaaS</span>
               </div>
             </div>
           </div>
