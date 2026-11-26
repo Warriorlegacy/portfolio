@@ -7,7 +7,7 @@ const EXPERIENCE = [
     role: 'Independent engineer',
     meta: '2026 — present · Contract and product work',
     points: [
-      'Shipped eight multi-tenant SaaS products on Cloudflare Workers and D1: QuoteFlow, HireFlow Lite, LocalRank Studio, AppointmentFlow, CoachingOS, CreativeOps, DocuDesk and LeadPulse.',
+      'Shipped nine products on Cloudflare Workers and D1: QuoteFlow, HireFlow Lite, LocalRank Studio, CoachingOS, CreativeOps, DocuDesk, VeriPay, KisanPulse and UPI Smart Collect.',
       'Built the auth and tenancy layer: PBKDF2 over Web Crypto, double-submit CSRF, httpOnly sessions, role scoping at the route, and tenant scope applied inside queries.',
       'Wrote a bounded crawler and outbound fetch paths with SSRF defence that refuses loopback, RFC1918 addresses and cloud metadata endpoints.',
       'Verified deployments with smoke suites run against the live worker: 45/45 QuoteFlow, 95/95 HireFlow Lite, 10/10 LocalRank Studio, 24/24 AppointmentFlow.',

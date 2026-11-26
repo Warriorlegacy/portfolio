@@ -1,4 +1,4 @@
-import { PROJECTS, SITE } from '../data/projects.js'
+import { AI_LIVE_COUNT, PROJECTS, SITE, WORKERS_D1_COUNT } from '../data/projects.js'
 import Portrait from '../components/Portrait'
 import { SectionHead } from '../components/SectionHead'
 import { ArrowUpRight } from '../components/Icons'
@@ -18,7 +18,7 @@ const TIMELINE = [
   {
     title: 'Independent software engineer and product builder',
     period: '2026 — present',
-    body: `${PROJECTS.length} catalogued projects across AI systems, SaaS, fintech, edtech, marketing and business sites. Eight multi-tenant SaaS products plus the Bharat 5x suite on Cloudflare Workers and D1, fourteen AI applications, and the automation that ships and audits them.`,
+    body: `${PROJECTS.length} catalogued projects across AI systems, SaaS, fintech, edtech, marketing and business sites. ${WORKERS_D1_COUNT} products live on Cloudflare Workers and D1 (the Bharat 5x suite included), ${AI_LIVE_COUNT} AI applications with a working deployment, and the automation that ships and audits them.`,
   },
   {
     title: 'Signhify — studio and product platform',
@@ -88,7 +88,7 @@ export default function Profile() {
                 <span>Live</span>
               </div>
               <div className="figure">
-                <b>9</b>
+                <b>{WORKERS_D1_COUNT}</b>
                 <span>Cloudflare SaaS</span>
               </div>
             </div>

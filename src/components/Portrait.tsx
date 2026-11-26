@@ -1,7 +1,8 @@
 import { useRef, useState } from 'react'
+import { PROJECTS } from '../data/projects.js'
 
 export default function Portrait({
-  tag = '45 projects shipped',
+  tag = `${PROJECTS.length} projects shipped`,
 }: {
   tag?: string
 }) {

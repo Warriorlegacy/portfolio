@@ -53,7 +53,7 @@ export const VARIANTS = [
       'AI Automation Engineer',
     ],
     summary:
-      'AI systems engineer who ships applications where a language model is a component, not the whole product. Fourteen AI products are live, covering contract redlining, clinical note structuring, Kubernetes incident triage, in-browser analytics and subtitle localisation. Works across TypeScript, Python, Cloudflare Workers, D1 and React, with models from OpenAI, Anthropic, Google and Groq behind a single provider-agnostic interface.',
+      'AI systems engineer who ships applications where a language model is a component, not the whole product. Fifteen AI products are live, covering contract redlining, clinical note structuring, Kubernetes incident triage, in-browser analytics and subtitle localisation. Works across TypeScript, Python, Cloudflare Workers, D1 and React, with models from OpenAI, Anthropic, Google and Groq behind a single provider-agnostic interface.',
     skills: [
       ['Models', 'OpenAI, Anthropic Claude, Google Gemini, Groq Llama, provider-agnostic routing, BYOK, structured outputs'],
       ['AI engineering', 'Agent orchestration, document retrieval, prompt and eval harnesses, in-browser inference with DuckDB-WASM and Pyodide, Web Speech, canvas metrology'],
@@ -98,7 +98,7 @@ export const VARIANTS = [
       'Node.js Developer',
     ],
     summary:
-      'Full-stack product engineer who owns a feature from schema to interface. Built eight multi-tenant SaaS products on Cloudflare Workers and D1, each with authentication, role scoping, migrations and a test suite, and shipped them with React front ends and server-rendered metadata.',
+      'Full-stack product engineer who owns a feature from schema to interface. Built nine products on Cloudflare Workers and D1, each with authentication, role scoping, migrations and a test suite, and shipped them with React front ends and server-rendered metadata.',
     skills: [
       ['Languages', 'TypeScript, Python, JavaScript, SQL'],
       ['Frontend', 'React 18 and 19, Next.js, TanStack Start, Vite, Tailwind CSS, accessible component design'],
@@ -265,7 +265,7 @@ export const VARIANTS = [
       'Technical Product Builder',
     ],
     summary:
-      'Engineer and product builder working across AI systems, full-stack development and go-to-market. Fifty-three shipped projects, including the Bharat 5x suite, multi-tenant SaaS products on Cloudflare Workers and fourteen AI applications, with the same standard applied to each: a working deployment, a written constraint list and tests that can be re-run.',
+      'Engineer and product builder working across AI systems, full-stack development and go-to-market. Fifty-three shipped projects, including the Bharat 5x suite, multi-tenant SaaS products on Cloudflare Workers and fifteen AI applications, with the same standard applied to each: a working deployment, a written constraint list and tests that can be re-run.',
     skills: [
       ['Languages', 'TypeScript, Python, JavaScript, SQL, HTML, CSS'],
       ['Product', 'SaaS architecture, multi-tenancy, onboarding, billing paths, admin surfaces, documentation'],

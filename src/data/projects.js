@@ -1354,6 +1354,13 @@ export const PROJECTS = [
 
 export const FEATURED = PROJECTS.filter((p) => p.featured)
 
+/** Derived so prose cannot drift from the catalogue again. */
+export const LIVE_COUNT = PROJECTS.filter((p) => p.live).length
+export const AI_COUNT = PROJECTS.filter((p) => p.group === 'ai').length
+export const AI_LIVE_COUNT = PROJECTS.filter((p) => p.group === 'ai' && p.live).length
+export const WORKERS_D1_COUNT = PROJECTS.filter(
+  (p) => p.live && p.tech.some((t) => /Workers/.test(t)) && p.tech.includes('D1'),
+).length
 /** The five Bharat platforms, in launch order. The hub is listed separately. */
 export const BHARAT_ECOSYSTEM = PROJECTS.filter((p) => p.bharat && p.slug !== 'bharat-os-hub')
 
@@ -1373,7 +1380,7 @@ export function countGroup(group) {
 export const CAPABILITIES = [
   {
     title: 'AI systems',
-    body: 'Provider-agnostic LLM integration, retrieval, agent orchestration and in-browser inference. Shipped across fourteen AI products.',
+    body: `Provider-agnostic LLM integration, retrieval, agent orchestration and in-browser inference. Shipped across ${AI_LIVE_COUNT} AI products with a working deployment.`,
   },
   {
     title: 'Product engineering',

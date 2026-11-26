@@ -1,4 +1,11 @@
-import { BHARAT_ECOSYSTEM, BHARAT_HUB, CAPABILITIES, PROJECTS, SITE } from '../data/projects.js'
+import {
+  BHARAT_ECOSYSTEM,
+  BHARAT_HUB,
+  CAPABILITIES,
+  PROJECTS,
+  SITE,
+  WORKERS_D1_COUNT,
+} from '../data/projects.js'
 import DepthField from '../components/DepthField'
 import Portrait from '../components/Portrait'
 import { SectionHead } from '../components/SectionHead'
@@ -197,7 +204,7 @@ export default function Home() {
                 side, and schemas, role boundaries and money paths on the other.
               </p>
               <p>
-                Most of what I ship is multi-tenant and edge-hosted. Eight SaaS products
+                Most of what I ship is multi-tenant and edge-hosted. {WORKERS_D1_COUNT} products
                 run on Cloudflare Workers with D1 behind them, each with authentication,
                 tenant scope in the queries rather than the views, and a smoke suite that
                 runs against production. The AI products take the opposite approach where
