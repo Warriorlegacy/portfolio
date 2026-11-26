@@ -146,6 +146,7 @@ input {
   display: inline-flex;
   align-items: baseline;
   gap: 10px;
+  padding: 9px 0;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.01em;
@@ -166,6 +167,9 @@ input {
 }
 
 .masthead nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
   font-size: 14px;
   color: var(--text-2);
   transition: color 160ms var(--ease);
@@ -239,6 +243,7 @@ input {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  padding: 6px 0;
   font-size: 14px;
   color: var(--accent);
   font-weight: 500;
@@ -1123,13 +1128,16 @@ input {
 }
 
 .eco__apk {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
   font-family: var(--mono);
   font-size: 11px;
   letter-spacing: 0.04em;
   color: var(--text-2);
   border: 1px solid var(--line-strong);
   border-radius: 999px;
-  padding: 4px 10px;
+  padding: 6px 12px;
   transition: border-color 160ms var(--ease), color 160ms var(--ease);
 }
 
